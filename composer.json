@@ -27,10 +27,16 @@
         "domain parsing",
         "url parsing"
     ],
+    "repositories": {
+        "portable-utf8": {
+            "type": "vcs",
+            "url": "https://github.com/menadwork/portable-utf8"
+        }
+    },
     "require": {
         "php": ">=5.3.0",
         "true/punycode": "~2.1",
-        "voku/portable-utf8": "~3.1"
+        "portable-utf8": "~3.1"
     },
     "require-dev": {
         "mikey179/vfsStream": "~1.6",
